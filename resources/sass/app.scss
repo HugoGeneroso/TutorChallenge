@@ -1,0 +1,49 @@
+// Fonts
+@font-face {
+    font-family: Avenir;
+    src: url('/fonts/Avenir.ttc');
+}
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//General
+a.custom-link{
+    color: #253141 !important;
+}
+
+//HeaderComponent
+.top-nav-custom{
+    margin-top:20px;
+}
+
+.top-nav-header-title{
+    padding-top:100px;
+}
+
+.top-nav-header-subtitle{
+    padding-top:10px;
+}
+
+.top-nav-header-button{
+    padding-top:30px;
+    padding-bottom:100px;
+}
+
+//TutorsComponent
+.tutors-title{
+    padding-top:50px;
+}
+
+.tutors-subtitle{
+    padding-bottom:50px;
+}
+.all-tutors-btn-container{
+    padding-bottom:50px;
+}
+//TutorsFilterComponent
+
+//TutorCardComponent
+
